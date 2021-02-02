@@ -1,7 +1,21 @@
-import './App.css';
+import React from 'react-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Home from './components/Home';
+import About from './components/About';
+import Blog from './components/Blog';
 
 function App() {
-  return <div>Hello World</div>;
+  return (
+    <BrowserRouter>
+      <div>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/blog" component={Blog} />
+        </Switch>
+      </div>
+    </BrowserRouter>
+  );
 }
 
 export default App;

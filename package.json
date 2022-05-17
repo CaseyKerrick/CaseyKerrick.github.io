@@ -4,7 +4,9 @@
   "private": true,
   "homepage": "http://CaseyKerrick.github.io/",
   "dependencies": {
-    "@material-ui/core": "^4.11.3",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.7.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
@@ -35,6 +37,7 @@
   },
   "devDependencies": {
     "eslint": "^7.19.0",
-    "eslint-plugin-react": "^7.22.0"
+    "eslint-plugin-react": "^7.22.0",
+    "react-error-overlay": "6.0.9"
   }
 }

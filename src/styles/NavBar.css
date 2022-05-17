@@ -1,0 +1,13 @@
+.navButton {
+  min-width: 125px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: inline-block;
+  color: #000;
+}
+
+.temp {
+  display: inline-block;
+  font-size: 21px;
+  color: #0EB5FE;
+}

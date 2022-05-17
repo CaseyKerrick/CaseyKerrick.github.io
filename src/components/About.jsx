@@ -1,7 +1,8 @@
 import React from 'react-dom';
+import NavBar from './NavBar';
 
 function About() {
-  return <div>Hello About</div>;
+  return <NavBar />;
 }
 
 export default About;

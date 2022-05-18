@@ -4,7 +4,7 @@ import '../styles/NavBar.css';
 
 function NavBar() {
   const pages = [
-    { label: 'About', url: '/about' },
+    { label: `Resumé`, url: '/resume' },
     { label: 'Blog', url: '/blog' },
   ];
   

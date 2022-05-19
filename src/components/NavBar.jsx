@@ -4,8 +4,8 @@ import '../styles/NavBar.css';
 
 function NavBar() {
   const pages = [
-    { label: `Resumé`, url: '/resume' },
-    { label: 'Blog', url: '/blog' },
+    { label: `Resumé`, url: '/#/resume' },
+    { label: 'Blog', url: '/#/blog' },
   ];
   
   return (

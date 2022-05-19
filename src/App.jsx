@@ -8,13 +8,26 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-      <div>
-        <Switch>
-          <Route exact path="/" component={Home} />
+      <Switch>
+      {/* <Router basename="/"  >
+            <Routes>
+                <Route path="/Random_User" element={<GetUser/>} />
+                <Route path="/Images" element={<RandomImage/>} />
+                <Route path="/Dogs" element={<Dog/>} />
+                <Route path="/Giphy" element={<Giphy/>} />
+                <Route path="/Cats" element={<Cat/>} />
+                <Route path="/"     element={<Home/>} />
+                <Route path='*' element={<Error/>} />
+            </Routes>
+            </Router> */}
+        <Route exact path="/" component={Home} />
+        {/* <Route path="/resume" component={Resume} />
+        <Route path="/blog" component={Blog} /> */}
+        <Route path="/" component={Home}>
           <Route path="/resume" component={Resume} />
           <Route path="/blog" component={Blog} />
-        </Switch>
-      </div>
+        </Route>
+      </Switch>
     </BrowserRouter>
   );
 }
